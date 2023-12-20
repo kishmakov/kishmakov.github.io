@@ -1,7 +1,7 @@
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
-on:  
+on:
   deployment:
 
   # Allows you to run this workflow manually from the Actions tab
@@ -29,11 +29,16 @@ jobs:
     steps:
       - name: Checkout main repo
         uses: actions/checkout@v4
-      - name: Checkout shortcut-explorer        
+      - name: Checkout shortcut-explorer
         uses: actions/checkout@v4
         with:
           repository: kishmakov/shortcut-explorer
           path: shortcut-explorer
+      - name: Checkout mojo-at-jetbrains
+        uses: actions/checkout@v4
+        with:
+          repository: kishmakov/mojo-at-jetbrains
+          path: mojo-at-jetbrains
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
