@@ -1,0 +1,88 @@
+#container {
+    padding-top: 20px;
+}
+
+.totop {
+    margin-top: 5px;
+}
+
+#assign {
+    padding: 0 30px 10px 30px;
+}
+
+table td, table th {
+    padding: 0 10px 2px 0px;
+}
+
+table {
+    margin-bottom: 20px;
+    border-collapse: separate;
+    border-spacing:2px 0;
+}
+
+table.result {
+    border-spacing:5px 5px;
+}
+
+.violet {
+    background: #990099;
+}
+
+li.violet {
+    background: white;
+    color: #990099;
+}
+
+.red {
+    background: #CC3300;
+}
+
+li.red {
+    background: white;
+    color: #CC3300;
+}
+
+.green {
+    background: #339900;
+}
+
+li.green {
+    background: white;
+    color: #339900;
+}
+
+.yellow {
+    background: #FFCC00;
+}
+
+li.yellow {
+    background: white;
+    color: #FFCC00;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding: 10px 0 10px 0;
+}
+
+li span {
+    color: black;
+}
+
+.option {
+    margin-top: 5px;
+    padding: 3px 0 3px 0;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.option:hover, .option:active {
+    background-color: #CCCCCC;
+}
+
+.option span {
+    margin-right: 10px;
+}
