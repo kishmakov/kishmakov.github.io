@@ -111,6 +111,11 @@ table.sparse td {
     padding: 10px 10px 0 10px;
 }
 
+table.sparse a {
+    display: inline-flex;
+    align-items: center;
+}
+
 /* text */
 
 .texter {
@@ -140,7 +145,7 @@ p.gray {
 }
 
 .logo {
-    padding: 1px 5px 1px 1px;
+    padding: 0 5px 0 1px;
     height: 15px;
 }
 
